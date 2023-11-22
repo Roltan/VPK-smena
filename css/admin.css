@@ -1,0 +1,45 @@
+body{
+    background-color: #d6fdfd;
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+}
+input:not(.albomdelete){
+    margin: 0 0 15px 0;
+}
+a{  
+    padding: 2px 5px;
+    margin: 7px 0;
+    color: #8b5b33;
+    border: solid #6b411f 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: #6b411f;
+    background-color: #a2d8d8;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.welcome-text{
+font-weight: bold;
+max-height: 50px;
+}
+.albomdelete{
+    padding: 5px;
+}
+.form{
+    margin-top: 40vh;
+}

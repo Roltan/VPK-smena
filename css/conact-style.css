@@ -1,0 +1,159 @@
+@font-face {
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+    font-family: "Roboto";
+    font-weight: 400; /*можно указывать или нормал или в числах до 900*/
+}
+
+@font-face {
+   src: url("../fonts/RobotoCondensed-Bold.ttf");
+   font-family: "Roboto";
+   font-weight: 600; /*можно указывать или нормал или в числах до 900*/
+}
+
+body{
+    font-family: Ubuntu;
+	font-size: 16px;
+	background-color: #415218;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.wrapper>div{
+    -webkit-box-shadow: 0 15px 10px 0 rgb(47, 57, 22, 0.7) inset;
+    -moz-box-shadow: 0 15px 10px 0 rgb(47, 57, 22, 0.7) inset;
+    box-shadow: 0 15px 10px 0 rgb(47, 57, 22, 0.7) inset;
+}
+.our-conact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+}
+.contact>div{
+    font-size: 1.75em;
+    color: white;
+    border: solid 7px #2a3814;
+    background-color: #839e54;
+    border-radius: 15px;
+    padding: 1em;
+    margin-bottom: 1.5%;
+}
+.contact a{
+    color: lightblue;
+}
+.our-conact-title{
+    font-size: 2.5em;
+    color: white;
+    margin-left: 15px;
+}
+.map{
+    border: solid 7px #2a3814;
+    height: 400px;
+    width: 40%;
+}
+.our-conact>div{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.other-contact{
+    background-color: #2f3d0e;
+    padding: 2vw 3vw;
+    color: grey;
+    font-size: 1.25em;
+}
+.other-contact-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 1.25em;
+}
+.other-contact>div{
+    display: flex;
+    justify-content: space-between;
+}
+.other-contact>div>div{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.other-contact img{
+    width: 14vw;
+    height: 14vw;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.other-contact>div>div>a{
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width:2560px){
+    body{
+        font-size: 22px;
+    }
+}
+@media (max-width:2300px){
+    body{
+        font-size: 20px;
+    }
+}
+@media (max-width:1500px){
+    body{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1040px){
+    .map{
+        height: 470px;
+    }
+    .contact{
+        max-width: 45%;
+    }
+}
+@media (max-width:767px){
+    body{
+        font-size: 12px;
+    }
+    .our-conact{
+        flex-direction: column; 
+        justify-content: normal;
+    }
+    .map{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 300px;
+        width: 364.16px;
+    }
+    .contact{
+        max-width: 364.16px;
+    }
+    .other-contact>div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .other-contact>div>div{
+        margin-bottom: 20px;
+        font-size: 1.5em;
+    }
+    .other-contact img{
+        width: 40vw;
+        height: 40vw;
+    }
+}
+@media (max-width:394px){
+    .map{
+        width: 90%;
+    }
+}
